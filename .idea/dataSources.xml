@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Rails programmer_hub: test" uuid="fa2c9e85-97ff-4f8f-b398-409f16b15c12">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:programmer_hub_test</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails programmer_hub: development" uuid="83c4f70b-5e63-4eb0-aed1-d0506b65cba9">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:programmer_hub_development</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails programmer_hub: production" uuid="952a920f-13ca-4116-b1d5-e54f05355461">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:programmer_hub_production</jdbc-url>
+    </data-source>
+  </component>
+</project>
