@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>ProgrammerHub</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
+<head>
+  <title>RedeSocial</title>
+  <%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+</head>
 
-  <body>
+<body>
+<header>
+  <%= render "shared/navbar" %>
+</header>
+<main>
+  <div class="container">
     <%= yield %>
-  </body>
+  </div>
+</main>
+
+<footer>
+  <%= render "shared/footer" %>
+</footer>
+</body>
 </html>
