@@ -1,4 +1,4 @@
-class PagesController < ApplicationController
+class PagesController < UnprotectedController
   def home
   end
 end
