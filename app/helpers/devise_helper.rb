@@ -11,9 +11,6 @@ module DeviseHelper
     <div id="error_explanation">
       <h2>#{sentence}</h2>
       <ul>#{messages}</ul>
-      <div>Caio</div>
-      <div><%= "camara" %></div>
-      erb: javascript_tag "Materialize.toast('caio', 4000, 'red')"
     </div>
     HTML
 
